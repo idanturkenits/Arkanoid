@@ -12,7 +12,7 @@ import listeners.BlockRemover;
 import sprites.Ball;
 import sprites.LevelNameText;
 import sprites.ScoreText;
-import pysics.Counter;
+import physics.Counter;
 import shapes.Point;
 import shapes.Rectangle;
 import biuoop.DrawSurface;

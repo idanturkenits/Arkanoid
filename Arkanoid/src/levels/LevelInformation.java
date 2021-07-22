@@ -2,7 +2,7 @@ package levels;
 
 import collidables.Block;
 import sprites.Sprite;
-import pysics.Velocity;
+import physics.Velocity;
 
 import java.util.List;
 

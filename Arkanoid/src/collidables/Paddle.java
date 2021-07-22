@@ -3,7 +3,7 @@ package collidables;
 import animation.GameLevel;
 import sprites.Ball;
 import sprites.Sprite;
-import pysics.Velocity;
+import physics.Velocity;
 import shapes.Line;
 import shapes.Point;
 import shapes.Rectangle;

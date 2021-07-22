@@ -6,7 +6,7 @@ import animation.GameOverScreen;
 import animation.KeyPressStoppableAnimation;
 import levels.LevelInformation;
 import listeners.ScoreTrackingListener;
-import pysics.Counter;
+import physics.Counter;
 import biuoop.KeyboardSensor;
 import animation.WinScreen;
 import java.util.List;

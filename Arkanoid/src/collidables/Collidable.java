@@ -1,7 +1,7 @@
 package collidables;
 
 import sprites.Ball;
-import pysics.Velocity;
+import physics.Velocity;
 import shapes.Point;
 import shapes.Rectangle;
 

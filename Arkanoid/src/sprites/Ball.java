@@ -2,7 +2,7 @@ package sprites;
 
 import collections.GameEnvironment;
 import collidables.CollisionInfo;
-import pysics.Velocity;
+import physics.Velocity;
 import shapes.Line;
 import shapes.Point;
 import biuoop.DrawSurface;

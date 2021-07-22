@@ -5,7 +5,7 @@ import drawings.SquareDrawing;
 import drawings.Stickman;
 import game.GameValues;
 import sprites.Sprite;
-import pysics.Velocity;
+import physics.Velocity;
 import shapes.Point;
 import shapes.Rectangle;
 import biuoop.DrawSurface;

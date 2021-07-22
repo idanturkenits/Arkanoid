@@ -1,6 +1,6 @@
 package sprites;
 
-import pysics.Counter;
+import physics.Counter;
 import biuoop.DrawSurface;
 import java.awt.Color;
 

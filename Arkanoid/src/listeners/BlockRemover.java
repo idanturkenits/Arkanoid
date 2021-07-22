@@ -3,7 +3,7 @@ package listeners;
 import animation.GameLevel;
 import collidables.Block;
 import sprites.Ball;
-import pysics.Counter;
+import physics.Counter;
 
 /**
  * This is the blockRemover Class.
