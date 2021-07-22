@@ -18,8 +18,9 @@ ant -Dargs="3 4 1" run
 ```
 
 ## instructions 
-1. When lose/win screen appears, press 'm' to exit the game.
-2. In order to move the paddle, use the arrow keys.
+1. You win when you complete all levels, and lose when you lose a level (all balls are gone).
+2. When lose/win screen appears, press 'm' to exit the game.
+3. In order to move the paddle, use the arrow keys.
 
 ## Images from the game
 <img width="791" alt="Screen Shot 2021-07-22 at 8 29 23" src="https://user-images.githubusercontent.com/60852129/126594968-43ecaa8d-1b4f-42ee-a6a5-e954c7e7d661.png">
