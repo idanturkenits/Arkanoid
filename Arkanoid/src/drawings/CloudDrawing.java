@@ -1,0 +1,911 @@
+package drawings;
+
+import game.GameValues;
+import sprites.Sprite;
+import biuoop.DrawSurface;
+
+import java.awt.Color;
+
+/**
+ * This is the CloudDrawing class.
+ * ID = 326685815
+ */
+public class CloudDrawing implements Sprite {
+    private int x;
+    private int y;
+
+    /**
+     * Constructor.
+     *
+     * @param x is the x position of the cloud.
+     * @param y is the y position of the cloud.
+     */
+    public CloudDrawing(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    @Override
+    public void drawOn(DrawSurface d) {
+        drawStepOne(d);
+        drawStepTwo(d);
+        drawStepThree(d);
+        drawStepFour(d);
+        drawStepFive(d);
+        drawStepSix(d);
+    }
+
+    /**
+     * step 6 of drawing the cloud.
+     *
+     * @param d is the draw surface.
+     */
+    public void drawStepSix(DrawSurface d) {
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 48 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 56 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 64 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(152 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(152 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(152 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(152 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(152 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 48 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 56 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 64 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 72 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 80 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 88 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 96 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(160 + x, 160 + y, 8, 8);
+    }
+
+    /**
+     * step 5 of drawing the cloud.
+     *
+     * @param d is the draw surface.
+     */
+    public void drawStepFive(DrawSurface d) {
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 112 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 120 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 48 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 56 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 64 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 112 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 120 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(128 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(128 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 48 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 56 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 64 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 112 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 120 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(136 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(136 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 48 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 56 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 64 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(144 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(144 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(144 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(144 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(144 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(144 + x, 112 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(144 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(144 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(152 + x, 16 + y, 8, 8);
+    }
+
+    /**
+     * step 4 of drawing the cloud.
+     *
+     * @param d is the draw surface.
+     */
+    public void drawStepFour(DrawSurface d) {
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 32 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(96 + x, 40 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(96 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(96 + x, 56 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(96 + x, 64 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(96 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(96 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(96 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(96 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(96 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(96 + x, 112 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(96 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(96 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(104 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(104 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(104 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(104 + x, 32 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(104 + x, 40 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(104 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(104 + x, 56 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 64 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 112 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 120 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(104 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(104 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(104 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(104 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(104 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 40 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(112 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(112 + x, 56 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 64 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 112 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 120 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(112 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(112 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(120 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(120 + x, 56 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(120 + x, 64 + y, 8, 8);
+    }
+
+    /**
+     * step 3 of drawing the cloud.
+     *
+     * @param d is the draw surface.
+     */
+    public void drawStepThree(DrawSurface d) {
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 40 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(64 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(64 + x, 56 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(64 + x, 64 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(64 + x, 72 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(64 + x, 80 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(64 + x, 88 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(64 + x, 96 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 32 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 40 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 56 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 64 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 72 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 80 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 88 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 96 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(72 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(72 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 32 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 40 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 56 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 64 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 72 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 80 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 88 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 96 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(80 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(80 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 32 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(88 + x, 40 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(88 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(88 + x, 56 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(88 + x, 64 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(88 + x, 72 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(88 + x, 80 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(88 + x, 88 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(88 + x, 96 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(88 + x, 104 + y, 8, 8);
+        d.setColor(new Color(255, 255, 255));
+        d.fillRectangle(88 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(88 + x, 128 + y, 8, 8);
+    }
+
+    /**
+     * step 2 of drawing the cloud.
+     *
+     * @param d is the draw surface.
+     */
+    public void drawStepTwo(DrawSurface d) {
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 48 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(40 + x, 56 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(40 + x, 64 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(40 + x, 72 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(40 + x, 80 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(40 + x, 88 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(40 + x, 96 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(40 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(40 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 48 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(48 + x, 56 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(48 + x, 64 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(48 + x, 72 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(48 + x, 80 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(48 + x, 88 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(48 + x, 96 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(48 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(48 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 48 + y, 8, 8);
+        d.setColor(new Color(222, 222, 222));
+        d.fillRectangle(56 + x, 56 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(56 + x, 64 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(56 + x, 72 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(56 + x, 80 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(56 + x, 88 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(56 + x, 96 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(56 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(64 + x, 24 + y, 8, 8);
+    }
+
+    /**
+     * step 1 of drawing the cloud.
+     *
+     * @param d is the draw surface.
+     */
+    public void drawStepOne(DrawSurface d) {
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 48 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 56 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 64 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 72 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 80 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 88 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 96 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(8 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 48 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 56 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 64 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(16 + x, 72 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(16 + x, 80 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(16 + x, 88 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 96 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(16 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 48 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 56 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(24 + x, 64 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(24 + x, 72 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(24 + x, 80 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(24 + x, 88 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(24 + x, 96 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 112 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 120 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 128 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 136 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 144 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 152 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(24 + x, 160 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 8 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 16 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 24 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 32 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 40 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 48 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(32 + x, 56 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(32 + x, 64 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(32 + x, 72 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(32 + x, 80 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(32 + x, 88 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(32 + x, 96 + y, 8, 8);
+        d.setColor(new Color(207, 207, 207));
+        d.fillRectangle(32 + x, 104 + y, 8, 8);
+        d.setColor(new Color(126, 172, 245));
+        d.fillRectangle(32 + x, 112 + y, 8, 8);
+    }
+
+    @Override
+    public void timePassed() {
+        return;
+    }
+
+    /**
+     * mving the cloud.
+     *
+     * @param xSteps is the x speed.
+     * @param ySteps is the y speed.
+     */
+    public void move(int xSteps, int ySteps) {
+        this.x += xSteps;
+        this.y += ySteps;
+        if (this.x >= GameValues.WIDTH) {
+            this.x = -150;
+        } else if (this.x <= -150) {
+            this.x = GameValues.WIDTH;
+        }
+    }
+}
+
+//    public int getX() {
+//        return this.x;
+//    }
+
