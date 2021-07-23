@@ -25,7 +25,7 @@ To do it, go into CMD, cd to the project, and type
 ant -Dargs="3 4 1" run
 ```
 
-## instructions 
+## Instructions 
 1. You win when you complete all levels, and lose when you lose a level (all balls are gone).
 2. When lose/win screen appears, press 'm' to exit the game.
 3. In order to move the paddle, use the arrow keys.
