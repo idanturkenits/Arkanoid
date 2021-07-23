@@ -7,9 +7,17 @@ During my first year in university, we were asked to create our own version of t
 ## What is in the folder
 1. inside the src folder there are all the java files you need to run the game.
 2. biuoop-1.4.jar is the graphics (dont need to deal with it)
-3. build.xml is the build file for the project - after downloading the code to a proper IDE (for example , IntelliJ), create an Ant using the build.xml file.
+3. build.xml is the build file for the project.
 
-## How to run the project
+## How to compile & run the project
+first, clone into the project using
+```
+git clone https://github.com/idanturkenits/Arkanoid/edit/main/README.md
+```
+in order to compile the code, cd to the inner project folder (named Arkanoid) and type
+```
+ant compile
+```
 In this game, you have the option to play which levels you want, and in the order you like.
 For exmaple, you have the options you want to play level 3 and then level 4 and then level 1.
 To do it, go into CMD, cd to the project, and type
