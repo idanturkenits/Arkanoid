@@ -16,7 +16,7 @@ after installing Apache Ant,  clone into the project using
 ```
 git clone https://github.com/idanturkenits/Arkanoid/edit/main/README.md
 ```
-in order to compile the code, cd to the inner project folder (named Arkanoid) and type
+in order to compile the code, cd the project folder (named Arkanoid) and type
 ```
 ant compile
 ```
