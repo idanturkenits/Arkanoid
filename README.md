@@ -5,8 +5,8 @@ Arkanoid is a 1986 block breaker arcade game developed and published by Taito. I
 During my first year in university, we were asked to create our own version of the Arkanoid game.
 
 ## What is in the folder
-1. inside the src folder there are all the java files you need to run the game.
-2. biuoop-1.4.jar is the graphics library(dont need to deal with it)
+1. Inside the src folder there are all the java files you need to run the game.
+2. biuoop-1.4.jar is the graphics library (don't need to deal with it)
 3. build.xml is the build file for the project.
 
 ## How to compile & run the project
