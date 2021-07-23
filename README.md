@@ -6,7 +6,7 @@ During my first year in university, we were asked to create our own version of t
 
 ## What is in the folder
 1. inside the src folder there are all the java files you need to run the game.
-2. biuoop-1.4.jar is the graphics (dont need to deal with it)
+2. biuoop-1.4.jar is the graphics library(dont need to deal with it)
 3. build.xml is the build file for the project.
 
 ## How to compile & run the project
