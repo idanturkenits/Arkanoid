@@ -10,7 +10,9 @@ During my first year in university, we were asked to create our own version of t
 3. build.xml is the build file for the project.
 
 ## How to compile & run the project
-first, clone into the project using
+In order to compile and run the project successfully, you need to install Apache Ant on your machine, see this link for further information https://github.com/ariecattan/biuoop2021/wiki/Installing-Ant
+
+after installing Apache Ant,  clone into the project using
 ```
 git clone https://github.com/idanturkenits/Arkanoid/edit/main/README.md
 ```
