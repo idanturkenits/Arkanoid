@@ -21,7 +21,7 @@ in order to compile the code, cd the project folder (named Arkanoid) and type
 ant compile
 ```
 In this game, you have the option to play which levels you want, and in the order you like.
-For exmaple, you have the options you want to play level 3 and then level 4 and then level 1.
+For exmaple, you have the option to play level 3 and then level 4 and then level 1.
 To do it, go into CMD, cd to the project, and type
 ```
 ant -Dargs="3 4 1" run
