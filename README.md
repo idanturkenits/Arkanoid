@@ -14,7 +14,7 @@ In order to compile and run the project successfully, you need to install Apache
 
 after installing Apache Ant,  clone into the project using
 ```
-git clone https://github.com/idanturkenits/Arkanoid/edit/main/README.md
+git clone https://github.com/idanturkenits/Arkanoid
 ```
 in order to compile the code, cd the project folder (named Arkanoid) and type
 ```
